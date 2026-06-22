@@ -14,11 +14,13 @@ export default function TabsLayout(){
             height: 60,
             margin: 6,
             borderRadius: 15,
+            position: 'absolute',
         },
         tabBarLabelStyle: {
             fontSize: 14,
             fontWeight: 'bold',
         },
+        
     }}>
         <Tabs.Screen name="index" options={{
             headerShown: false,
