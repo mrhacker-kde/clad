@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "clad",
-    "slug": "clad",
+    "slug": "com.cladtournament.clad",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2d5a7ace-9b0a-4fef-9135-4f253148ddd6"
+      }
+    },
+    "owner": "mrhacker-kde"
   }
 }
