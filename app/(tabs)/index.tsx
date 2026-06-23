@@ -1,14 +1,57 @@
 import Logo from "../../assets/components/logo";
-import { Text, View } from "react-native";
-import { globalStyles } from "../../assets/styles/styles";
+import {
+  View,
+  Text,
+  SafeAreaView,
+  globalStyles,
+  ScrollView,
+} from "@/assets/imports/imports";
 
 export default function Index() {
   return (
-    <View style={globalStyles.SafeAreaView}>
+    <SafeAreaView style={globalStyles.SafeAreaView}>
       <Logo />
-      <View>
-        <Text>Home</Text>
-      </View>
-    </View>
+      <ScrollView
+        style={globalStyles.ScrollView}
+        contentContainerStyle={{ paddingBottom: 83 }}
+      >
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+        <View>
+          <Text>Home</Text>
+          <Logo />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

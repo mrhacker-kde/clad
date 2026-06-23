@@ -14,7 +14,7 @@ export default function Logo(){
             </View>
             <View >
                 {/* user profile icon */}
-                <Ionicons name='person-circle' size={40} color={'orange'}/>
+                <Ionicons name='person-circle' size={55} color={'orange'}/>
             </View>
 
         </View>

@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Clad App Color Palette
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Backgrounds
 
-## Get started
+- `#050505` — outer page canvas
+- `#080808` — phone frame / main app background
+- `#0e0e0e` — bottom nav bar
+- `#111111` — cards, panels, sub-nav bars
+- `#1a1a1a` — input fields, slot grid cells
+- `#1e1e1e` — dropdown menu background
 
-1. Install dependencies
+## Brand Orange (Primary Accent)
 
-   ```bash
-   npm install
-   ```
+- `#ff6b00` — buttons, active tabs, badges, icons, highlights, K/D text, team code text, active nav, progress bar fill, borders on featured cards
 
-2. Start the app
+## Orange tints (overlays & states)
 
-   ```bash
-   npx expo start
-   ```
+- `rgba(255,107,0,0.07)` — info card backgrounds
+- `rgba(255,107,0,0.08)` — light tint panels
+- `rgba(255,107,0.10)` — active nav background
+- `rgba(255,107,0.12)` — avatar bg, button hover states
+- `rgba(255,107,0.15)` — success overlay bg
+- `rgba(255,107,0.20)` — card borders
+- `rgba(255,107,0.40)` — slot grid cell border (filled)
 
-In the output, you'll find options to open the app in a
+## Text
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- `#f5f5f5` — primary body text / white
+- `#ffffff` — pure white (buttons on orange, banner text)
+- `#888888` — secondary / muted labels
+- `#777777` — form label text
+- `#666666` — caption text, FAQ answers
+- `#555555` — column headers, dividers
+- `#444444` — inactive nav icons/labels
+- `#333333` — empty slot numbers
+- `#4a2e0a` — disabled button text
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Borders / Dividers
 
-## Get a fresh project
+- `rgba(255,255,255,0.05)` — default card border
+- `rgba(255,255,255,0.06)` — slightly more visible dividers
+- `rgba(255,255,255,0.07)` — nav border top
+- `rgba(255,255,255,0.08)` — input field border
+- `rgba(255,255,255,0.10)` — dropdown border
 
-When you're ready, run:
+## Rank Badges
 
-```bash
-npm run reset-project
-```
+- `#FFD700` — Gold (Rank 1)
+- `#C0C0C0` — Silver (Rank 2)
+- `#CD7F32` — Bronze (Rank 3)
+- `#222222` — Rank 4+
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Status / Semantic
 
-## Learn more
+- `#22c55e` — online indicator, saved confirmation green
+- `rgba(34,197,94,0.12)` — green button tint (saved state)
+- `#f87171` — slots full / error red
+- `rgba(248,113,113,0.08)` — error card background
+- `rgba(248,113,113,0.20)` — error card border
 
-To learn more about developing your project with Expo, look at the following resources:
+## External service colors
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- `#5865F2` — Discord
+- `#25D366` — WhatsApp
 
-## Join the community
+## Featured banner gradient
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `linear-gradient(135deg, rgba(255,107,0,0.85) → rgba(0,0,0,0.70))`

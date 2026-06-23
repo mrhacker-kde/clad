@@ -1,11 +1,13 @@
-import {Text, View} from 'react-native'
+import Logo from "../../assets/components/logo";
+import { View, Text, SafeAreaView, globalStyles } from '@/assets/imports/imports'
 
-export default function Ranking(){
-    return(
-        <>
-            <View>
-                <Text>Rankings</Text>
-            </View>
-        </>
-    )
+export default function Index() {
+  return (
+    <SafeAreaView style={globalStyles.SafeAreaView}>
+      <Logo />
+      <View>
+        <Text>Home</Text>
+      </View>
+    </SafeAreaView>
+  );
 }
