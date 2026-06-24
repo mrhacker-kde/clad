@@ -1,4 +1,4 @@
-export {Text, View, Platform, TextInput, Button, Image,StyleSheet, ScrollView} from 'react-native';
+export {Text, TouchableOpacity, View, Platform, TextInput, Button, Image,StyleSheet, ScrollView} from 'react-native';
 export {default as FontAwesome6} from '@expo/vector-icons/FontAwesome6';
 export {default as FontAwesome5} from '@expo/vector-icons/FontAwesome5';
 export {default as MaterialCommunityIcons} from '@expo/vector-icons/MaterialCommunityIcons';
@@ -10,3 +10,4 @@ export { styles, globalStyles } from '../styles/styles';
 export {default as Logo} from '../components/logo';
 export { Background } from '@react-navigation/elements';
 export { Tabs } from 'expo-router';
+// export { Text, Card, Button, Icon } from '@rneui/themed';

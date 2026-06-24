@@ -1,9 +1,11 @@
 import {
   globalStyles,
+  styles,
   SafeAreaView,
   ScrollView,
   Text,
   View,
+  TouchableOpacity
 } from "@/assets/imports/imports";
 import Logo from "../../assets/components/logo";
 
@@ -15,16 +17,15 @@ export default function Index() {
         style={globalStyles.ScrollView}
         contentContainerStyle={{ paddingBottom: 83 }}
       >
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <View>
+        <View style={styles.card}>
+          <View style={styles.dta}>
             <Text>SEASON 7</Text>
-            <Text>Clad Weekly</Text>
+            <Text>CLAD WEEKLY</Text>
             <Text>TOURNAMENT</Text>
             <Text>Prize Pool: Not yet</Text>
+            <TouchableOpacity style={styles.dtab}>
+              <Text>View Details</Text>
+            </TouchableOpacity>
           </View>
         </View>
       </ScrollView>
