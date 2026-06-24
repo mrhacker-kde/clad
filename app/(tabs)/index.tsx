@@ -1,11 +1,11 @@
-import Logo from "../../assets/components/logo";
 import {
-  View,
-  Text,
-  SafeAreaView,
   globalStyles,
+  SafeAreaView,
   ScrollView,
+  Text,
+  View,
 } from "@/assets/imports/imports";
+import Logo from "../../assets/components/logo";
 
 export default function Index() {
   return (
@@ -20,36 +20,12 @@ export default function Index() {
           <Logo />
         </View>
         <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
-        </View>
-        <View>
-          <Text>Home</Text>
-          <Logo />
+          <View>
+            <Text>SEASON 7</Text>
+            <Text>Clad Weekly</Text>
+            <Text>TOURNAMENT</Text>
+            <Text>Prize Pool: Not yet</Text>
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>

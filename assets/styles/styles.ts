@@ -37,6 +37,7 @@ export const styles = StyleSheet.create({
   lpm: {
     color: "#888888",
   },
+  
 });
 
 export const globalStyles = StyleSheet.create({
