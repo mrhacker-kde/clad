@@ -1,13 +1,13 @@
 import {
   globalStyles,
-  styles,
   SafeAreaView,
   ScrollView,
-  Text,
-  View,
-  TouchableOpacity
+  styles,
 } from "@/assets/imports/imports";
+import HeroSection from "../../assets/components/HeroSection";
 import Logo from "../../assets/components/logo";
+import UpcomingMatches from "../../assets/components/UpcomingMatches";
+import TopPlayers from "@/assets/components/TopPlayers";
 
 export default function Index() {
   return (
@@ -15,19 +15,11 @@ export default function Index() {
       <Logo />
       <ScrollView
         style={globalStyles.ScrollView}
-        contentContainerStyle={{ paddingBottom: 83 }}
+        contentContainerStyle={styles.scrollContent}
       >
-        <View style={styles.card}>
-          <View style={styles.dta}>
-            <Text>SEASON 7</Text>
-            <Text>CLAD WEEKLY</Text>
-            <Text>TOURNAMENT</Text>
-            <Text>Prize Pool: Not yet</Text>
-            <TouchableOpacity style={styles.dtab}>
-              <Text>View Details</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
+        <HeroSection />
+        <UpcomingMatches />
+        <TopPlayers/>
       </ScrollView>
     </SafeAreaView>
   );
